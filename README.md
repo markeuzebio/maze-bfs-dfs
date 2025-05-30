@@ -33,7 +33,7 @@ The executable can be found under app/ directory.
 Below we have the commands sequence used to run the project. ``<file_parameter>`` is the file passed as argument to the executable.
 
 ```bash
-make && cd ./app && ./exe <file_parameter>
+make && cp <file_parameter> ./app && cd ./app && ./exe <file_parameter>
 ```
 
 ## Giff
